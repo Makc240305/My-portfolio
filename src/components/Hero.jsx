@@ -30,6 +30,7 @@ function Hero() {
             target="_blank"
             download
             className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
+            rel="noopener noreferrer"
           >
             Download Resume
           </a>
