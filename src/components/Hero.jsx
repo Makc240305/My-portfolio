@@ -1,4 +1,5 @@
 import { HERO_CONTENT } from "../constants";
+import portfolio_image from "../assets/porfolio image.png";
 
 function Hero() {
   return (
@@ -7,7 +8,7 @@ function Hero() {
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:p-8">
             <img
-              src="profile-picture"
+              src={portfolio_image}
               alt="Maksym Torbenko profile picture"
               className="border border-stone-900 rounded-3xl"
             />
