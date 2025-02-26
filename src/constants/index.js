@@ -1,6 +1,6 @@
-import project1 from '../assets/projects/project-1.webp';
-import project2 from '../assets/projects/project-2.webp';
-import project3 from '../assets/projects/project-3.webp';
+import project1 from '../assets/projects/project-1.png';
+import project2 from '../assets/projects/project-2.png';
+import project3 from '../assets/projects/project-3.png';
 import project4 from '../assets/projects/project-4.webp';
 
 export const HERO_CONTENT = `I am a motivated Computer Science student with a strong foundation in JavaScript, React, and Node.js. I specialize in front-end technologies like React, HTML, CSS, and SCSS, and I am eager to contribute to real-world projects while expanding my skills in full-stack development.`;
