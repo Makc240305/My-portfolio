@@ -1,17 +1,32 @@
 import { PROJECTS } from "../constants";
 import { FaGithub } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
     <div className="max-w-5xl m-auto">
-      <h2 className="my-20 text-center text-4xl font-light">Projects</h2>
+      <motion.h2
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
+        className="my-20 text-center text-4xl font-light"
+      >
+        Projects
+      </motion.h2>
       <div>
         {PROJECTS.map((project, index) => (
           <div
             key={index}
-            className="mb-12 flex flex-col jusify-start gap-8 lg:flex-row flex-nowrap"
+            className="mb-12 flex flex-col justify-start gap-8 lg:flex-row flex-nowrap"
           >
-            <div className="self-center lg:w-3/8">
+            <motion.div
+              style={{ willChange: "transform, opacity" }}
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -50 }}
+              transition={{ duration: 0.6, ease: "easeOut" }}
+              viewport={{ amount: 0.2 }}
+              className="self-center lg:w-3/8"
+            >
               <a
                 href={project.link}
                 aria-label={`Visit ${project.title} project`}
@@ -24,9 +39,16 @@ const Projects = () => {
                   className="rounded"
                 />
               </a>
-            </div>
-            <div className="flex flex-wrap justify-between gap-6 w-full relative lg:flex-col">
-            <div className="text-3xl absolute right-0 top-0">
+            </motion.div>
+            <motion.div
+              style={{ willChange: "transform, opacity" }}
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 50 }}
+              transition={{ duration: 0.6, ease: "easeOut" }}
+              viewport={{ amount: 0.2 }}
+              className="flex flex-wrap justify-between gap-6 w-full relative lg:flex-col"
+            >
+              <div className="text-3xl absolute right-0 top-0">
                 <a
                   href={project.githubLink}
                   aria-label={`View ${project.title} on GitHub`}
@@ -63,7 +85,7 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-            </div>
+            </motion.div>
           </div>
         ))}
       </div>
