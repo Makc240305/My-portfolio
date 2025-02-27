@@ -26,6 +26,8 @@ const Projects = () => {
               transition={{ duration: 0.6, ease: "easeOut" }}
               viewport={{ amount: 0.2 }}
               className="self-center lg:w-3/8"
+              whileHover={{ scale: 1.1}}
+              whileTap={{  scale: 0.9}}
             >
               <a
                 href={project.link}
@@ -48,7 +50,7 @@ const Projects = () => {
               viewport={{ amount: 0.2 }}
               className="flex flex-wrap justify-between gap-6 w-full relative lg:flex-col"
             >
-              <div className="text-3xl absolute right-0 top-0">
+              <div className="text-3xl absolute right-0 top-0 hover:text-gray-700 active:text-gray-800">
                 <a
                   href={project.githubLink}
                   aria-label={`View ${project.title} on GitHub`}
@@ -77,12 +79,16 @@ const Projects = () => {
                   {project.description}
                 </p>
                 {project.technologies.map((technology, i) => (
-                  <span
+                  <motion.span
+                    whileHover={{
+                      backgroundColor: "#575757",
+                    }}
+                    whileTap={{ backgroundColor: "#575757" }}
                     className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"
                     key={i}
                   >
                     {technology}
-                  </span>
+                  </motion.span>
                 ))}
               </div>
             </motion.div>

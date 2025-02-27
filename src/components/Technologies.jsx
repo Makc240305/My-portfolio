@@ -36,7 +36,9 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           variants={iconVariants(2.5)}
-          className="p-4 text-cyan-400 drop-shadow-[0_0_30px_rgba(34,211,238,0.8)] hover:scale-140 transition"
+          whileHover={{ scale: 1.5 }} 
+          whileTap={{ scale: 0.8 }}   
+          className="p-4 text-cyan-400 drop-shadow-[0_0_30px_rgba(34,211,238,0.8)] click:scale-140 transition"
         >
           <RiReactjsLine className="text-7xl" />
         </motion.div>

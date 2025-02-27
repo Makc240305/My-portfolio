@@ -45,7 +45,7 @@ function Hero() {
         </div>
         <div className="w-full lg:w-1/2">
           <motion.div
-            initial='hidden'
+            initial="hidden"
             animate="visible"
             variants={containerVariants}
             transition={{ duration: 1, delay: 1.5 }}
@@ -70,6 +70,17 @@ function Hero() {
               {HERO_CONTENT}
             </motion.p>
             <motion.a
+              whileHover={{
+                scale: 1.1,
+                backgroundColor: "#3A3A3A",
+                color: "#FFFFFF",
+              }}
+              whileTap={{
+                scale: 0.9,
+                backgroundColor: "#3A3A3A",
+                color: "#FFFFFF",
+              }}
+              variants={childVariants}
               href="/resume.pdf"
               target="_blank"
               download
