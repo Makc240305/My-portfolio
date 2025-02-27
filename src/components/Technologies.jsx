@@ -52,7 +52,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           variants={iconVariants(5)}
-          className="p-4 text-yellow-300 drop-shadow-[0_0_30px_rgba(250,204,21,0.4)] hover:scale-110 transition"
+          className="p-4 text-yellow-300 drop-shadow-[0_0_30px_rgba(250,204,21,0.7)] hover:scale-110 transition"
         >
           <FaJs className="text-7xl" />
         </motion.div>

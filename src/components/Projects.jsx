@@ -9,9 +9,9 @@ const Projects = () => {
         {PROJECTS.map((project, index) => (
           <div
             key={index}
-            className="mb-12 flex flex-col w-full justify-start gap-8 lg:flex-row flex-nowrap"
+            className="mb-12 flex flex-col jusify-start gap-8 lg:flex-row flex-nowrap"
           >
-            <div className="w-full lg:w-1/4">
+            <div className="self-center lg:w-1/4">
               <a 
                 href={project.link} 
                 aria-label={`Visit ${project.title} project`} 
