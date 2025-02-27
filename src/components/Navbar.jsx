@@ -9,7 +9,7 @@ const Navbar = () => {
           <img src={logo} className="mx-2" width={50} height={50} alt="Logo" />
         </a>
       </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+      <div className="m-8 flex items-center justify-center gap-4 text-3xl">
         <a
           href="https://github.com/Makc240305"
           aria-label="GitHub"
