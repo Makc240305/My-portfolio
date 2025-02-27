@@ -65,7 +65,7 @@ function Hero() {
             </motion.span>
             <motion.p
               variants={childVariants}
-              className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter"
+              className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter font-light"
             >
               {HERO_CONTENT}
             </motion.p>
