@@ -1,7 +1,6 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
-import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `Motivated and detail-oriented Computer Science student with foundational expertise in JavaScript, React, and Node.js. Proficient in building responsive interfaces using HTML/CSS, SCSS, Tailwind CSS, and version control with Git. Eager to contribute to real-world projects while expanding skills in front-end development and collaborative workflows.`;
 
@@ -44,15 +43,6 @@ export const PROJECTS = [
     technologies: ["React", "Vite", "SCSS"],
     githubLink: "https://github.com/Makc240305/Users-list",
     link: "https://users-list-lac.vercel.app/",
-  },
-  {
-    title: "E-Commerce Website",
-    image: project4,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    githubLink: "https://github.com/your-username/e-commerce-website",
-    link: "/",
   },
 ];
 
