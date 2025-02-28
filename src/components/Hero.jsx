@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import portfolio_image from "../assets/porfolio image.png";
 import { motion } from "framer-motion";
+import cv from "../assets/CV_Maksym Torbenko_Front-End_Developer.pdf"
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -81,7 +82,7 @@ function Hero() {
                 color: "#FFFFFF",
               }}
               variants={childVariants}
-              href="/resume.pdf"
+              href={cv}
               target="_blank"
               download
               className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
