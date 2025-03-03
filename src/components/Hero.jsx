@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import portfolio_image from "../assets/porfolio image.png";
+import portfolio_image from "../assets/porfolio image 1.png";
 import { motion } from "framer-motion";
 import cv from "../assets/CV_Maksym Torbenko_Front-End_Developer.pdf"
 
@@ -39,8 +39,8 @@ function Hero() {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.5 }}
-              width={650}
-              height={650}
+              width={400}
+              height={400}
             />
           </div>
         </div>
