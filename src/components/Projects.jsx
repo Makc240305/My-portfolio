@@ -25,9 +25,8 @@ const Projects = () => {
               initial={{ opacity: 0, x: -50 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
               viewport={{ amount: 0.2 }}
-              className="self-center lg:w-3/8"
+              className="self-center lg:w-3/8 active:scale-90"
               whileHover={{ scale: 1.1}}
-              whileTap={{  scale: 0.9}}
             >
               <a
                 href={project.link}
@@ -69,7 +68,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                 >
                   <h3
-                    className="mb-2 font-semibold text-2xl"
+                    className="mb-2 font-semibold text-2xl hover:text-gray-400 active:text-gray-500"
                     id={`project-title-${index}`}
                   >
                     {project.title}

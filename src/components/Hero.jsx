@@ -1,7 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import portfolio_image from "../assets/porfolio image 1.png";
 import { motion } from "framer-motion";
-import cv from "../assets/CV_Maksym Torbenko_Front-End_Developer.pdf"
+import cv from "../assets/CV_Maksym Torbenko_Front-End_Developer.pdf";
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -35,12 +35,11 @@ function Hero() {
             <motion.img
               src={portfolio_image}
               alt="Maksym Torbenko profile picture"
-              className="border border-stone-900 rounded-3xl"
-              initial={{ x: 100, opacity: 0 }}
+              className="rounded drop-shadow-[0_0_50px_rgba(191,94,0,0.3)] "
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.5 }}
-              width={400}
-              height={400}
+              width={350}
+              height={350}
             />
           </div>
         </div>
@@ -60,13 +59,13 @@ function Hero() {
             </motion.h2>
             <motion.span
               variants={childVariants}
-              className="bg-gradient-to-r from-stone-200 to-stone-800 bg-clip-text text-3xl tracking-tight text-transparent"
+              className="text-stone-200 bg-clip-text text-3xl tracking-tight"
             >
               Front End Developer
             </motion.span>
             <motion.p
               variants={childVariants}
-              className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter font-light"
+              className="text-stone-300 my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter font-light "
             >
               {HERO_CONTENT}
             </motion.p>
@@ -78,14 +77,12 @@ function Hero() {
               }}
               whileTap={{
                 scale: 0.9,
-                backgroundColor: "#3A3A3A",
-                color: "#FFFFFF",
               }}
               variants={childVariants}
               href={cv}
               target="_blank"
               download
-              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
+              className="bg-white rounded-xl p-4 text-sm text-stone-800 mb-10"
               rel="noopener noreferrer"
             >
               Download Resume

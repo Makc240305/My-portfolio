@@ -35,10 +35,8 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
-          variants={iconVariants(2.5)}
-          whileHover={{ scale: 1.5 }} 
-          whileTap={{ scale: 0.8 }}   
-          className="p-4 text-cyan-400 drop-shadow-[0_0_30px_rgba(34,211,238,0.8)] click:scale-140 transition"
+          variants={iconVariants(2.5)}  
+          className="p-4 text-cyan-400 drop-shadow-[0_0_30px_rgba(34,211,238,0.8)] hover:scale-140 active:scale-140 transition"
         >
           <RiReactjsLine className="text-7xl" />
         </motion.div>
@@ -46,7 +44,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           variants={iconVariants(3)}
-          className="p-4 text-orange-600 drop-shadow-[0_0_30px_rgba(249,115,22,0.8)] hover:scale-140 transition"
+          className="p-4 text-orange-600 drop-shadow-[0_0_30px_rgba(249,115,22,0.8)] hover:scale-140 active:scale-140 transition"
         >
           <FaHtml5 className="text-7xl" />
         </motion.div>
@@ -54,7 +52,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           variants={iconVariants(5)}
-          className="p-4 text-yellow-300 drop-shadow-[0_0_30px_rgba(250,204,21,0.7)] hover:scale-140 transition"
+          className="p-4 text-yellow-300 drop-shadow-[0_0_30px_rgba(250,204,21,0.7)] hover:scale-140 active:scale-140 transition"
         >
           <FaJs className="text-7xl" />
         </motion.div>
@@ -62,7 +60,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           variants={iconVariants(2)}
-          className="p-4 text-blue-400 drop-shadow-[0_0_30px_rgba(96,165,250,0.8)] hover:scale-140 transition"
+          className="p-4 text-blue-400 drop-shadow-[0_0_30px_rgba(96,165,250,0.8)] hover:scale-140 active:scale-140 transition"
         >
           <FaCss3 className="text-7xl" />
         </motion.div>
@@ -70,7 +68,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           variants={iconVariants(6)}
-          className="p-4 text-cyan-500 drop-shadow-[0_0_30px_rgba(6,182,212,1)] hover:scale-140 transition"
+          className="p-4 text-cyan-500 drop-shadow-[0_0_30px_rgba(6,182,212,1)] hover:scale-140 active:scale-140 transition"
         >
           <RiTailwindCssFill className="text-7xl" />
         </motion.div>
@@ -78,7 +76,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           variants={iconVariants(4)}
-          className="p-4 text-green-500 drop-shadow-[0_0px_30px_rgba(34,197,94,1)] hover:scale-140 transition"
+          className="p-4 text-green-500 drop-shadow-[0_0px_30px_rgba(34,197,94,1)] hover:scale-140 active:scale-140 transition"
         >
           <FaNodeJs className="text-7xl" />
         </motion.div>
