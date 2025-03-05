@@ -59,21 +59,21 @@ function Hero() {
             </motion.h2>
             <motion.span
               variants={childVariants}
-              className="text-stone-200 bg-clip-text text-3xl tracking-tight"
+              className="dark:text-stone-200 bg-clip-text text-3xl tracking-tight"
             >
               Front End Developer
             </motion.span>
             <motion.p
               variants={childVariants}
-              className="text-stone-300 my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter font-light "
+              className="dark:text-stone-300 my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter font-light "
             >
               {HERO_CONTENT}
             </motion.p>
             <motion.a
               whileHover={{
                 scale: 1.1,
-                backgroundColor: "#3A3A3A",
-                color: "#FFFFFF",
+                backgroundColor: "rgb(58, 58, 58)",
+                color: "rgb(255, 255, 255)", 
               }}
               whileTap={{
                 scale: 0.9,
@@ -82,7 +82,7 @@ function Hero() {
               href={cv}
               target="_blank"
               download
-              className="bg-white rounded-xl p-4 text-sm text-stone-800 mb-10"
+              className="bg-blue-100 dark:bg-white rounded-xl p-4 text-sm text-stone-800 mb-10"
               rel="noopener noreferrer"
             >
               Download Resume
