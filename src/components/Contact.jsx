@@ -1,9 +1,10 @@
 import { CONTACT } from "../constants";
-import { easeOut, motion } from "framer-motion";
+import { motion } from "framer-motion";
+import ThemeToggle from "./ThemeToggle";
 
 const Contact = () => {
   return (
-    <div className="border-t border-stone-900 pb-10">
+    <div className="border-t border-stone-900 pb-7">
       <motion.h2
         whileInView={{ opacity: 1, scale: 1 }}
         initial={{ opacity: 0, scale: 0 }}
@@ -19,7 +20,7 @@ const Contact = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <p className="my-4 font-light hover:text-gray-300">
+          <p className=" my-4 font-light hover:text-gray-300">
             {CONTACT.phoneNo}
           </p>
         </a>
@@ -31,6 +32,7 @@ const Contact = () => {
         >
           {CONTACT.email}
         </a>
+        <ThemeToggle />
       </div>
     </div>
   );

@@ -39,11 +39,7 @@ const Experience = () => {
               {experience.technologies.map((technologies, index) => (
                 <motion.span
                   key={index}
-                  className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300"
-                  whileHover={{
-                    backgroundColor: "#575757",
-                  }}
-                  whileTap={{ backgroundColor: "#575757" }}
+                  className="mr-2 mt-4 rounded bg-blue-100 dark:bg-stone-900 px-2 py-1 text-sm font-medium text-stone-950 dark:text-stone-300"
                 >
                   {technologies}
                 </motion.span>

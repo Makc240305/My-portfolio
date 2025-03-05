@@ -25,8 +25,8 @@ const Projects = () => {
               initial={{ opacity: 0, x: -50 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
               viewport={{ amount: 0.2 }}
-              className="self-center lg:w-3/8 active:scale-90"
-              whileHover={{ scale: 1.1}}
+              className="self-center lg:w-3/8"
+              whileHover={{ scale: 1.1 }}
             >
               <a
                 href={project.link}
@@ -74,20 +74,19 @@ const Projects = () => {
                     {project.title}
                   </h3>
                 </a>
-                <p className="mb-4 text-stone-400" id={`project-desc-${index}`}>
+                <p
+                  className="mb-4 text-stone-700 dark:text-stone-400"
+                  id={`project-desc-${index}`}
+                >
                   {project.description}
                 </p>
                 {project.technologies.map((technology, i) => (
-                  <motion.span
-                    whileHover={{
-                      backgroundColor: "#575757",
-                    }}
-                    whileTap={{ backgroundColor: "#575757" }}
-                    className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"
+                  <span
+                    className="mr-2 rounded bg-blue-100 dark:bg-stone-900 p-2 text-sm font-medium dark:text-stone-300"
                     key={i}
                   >
                     {technology}
-                  </motion.span>
+                  </span>
                 ))}
               </div>
             </motion.div>
