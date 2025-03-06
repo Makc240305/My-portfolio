@@ -4,8 +4,6 @@ import project3 from "../assets/projects/project-3.png";
 
 export const HERO_CONTENT = `Motivated and detail-oriented Computer Science student with foundational expertise in JavaScript, React, and Node.js. Proficient in building responsive interfaces using HTML/CSS, SCSS, Tailwind CSS, and version control with Git. Eager to contribute to real-world projects while expanding skills in front-end development and collaborative workflows.`;
 
-export const ABOUT_TEXT = `I am a passionate Computer Science student with a deep interest in creating efficient and user-friendly web applications. Currently pursuing my Bachelor's degree, I have experience working with JavaScript, React, Node.js, and various front-end technologies. I thrive in collaborative environments and am always looking to improve my skills by learning new technologies and techniques.`;
-
 export const EXPERIENCES = [
   {
     year: "2022 - 2025",
@@ -57,34 +55,20 @@ export const PROFESSIONAL_SUMMARY = `Motivated and detail-oriented Computer Scie
 export const EDUCATION = [
   {
     institution: "WSB Merito, Gdansk, Poland",
-    degree: "Bachelor of Engineering",
+    degree: "Bachelor of Computer Science (BCompSc), Computer Engineering",
     expected: "2026",
   },
   {
     institution:
-      "Khmelnytskyi Cooperative Trade and Economic Institute, Ukraine",
+      "Khmelnytskyi XKTEI,Khmelnytskyi, Ukraine",
     degree: "Bachelor of Computer Science (BCompSc), Computer Engineering",
     years: "2020 - 2022",
   },
 ];
 
-export const TECHNICAL_SKILLS = [
-  "JavaScript (ES6+)",
-  "HTML5",
-  "CSS3",
-  "React.js",
-  "Node.js",
-  "SCSS/SASS",
-  "Tailwind CSS",
-  "Git",
-  "Webpack",
-  "npm",
-  "yarn",
-];
-
 export const LANGUAGES = [
-  "English – B2 (Upper-Intermediate)",
-  "Polish – B1 (Intermediate)",
-  "Ukrainian – C2 (Native-like)",
-  "Russian – C2 (Native-like)",
+  { name: "English", level: "B2"},
+  { name: "Polish", level: "B1"},
+  { name: "Ukrainian", level: "C2"},
+  { name: "Russian", level: "C2"},
 ];
