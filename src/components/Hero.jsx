@@ -1,7 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import portfolio_image from "../assets/porfolio image 1.png";
 import { motion } from "framer-motion";
-import cv from "../assets/CV_Maksym Torbenko_Front-End_Developer.pdf";
+import cv from "../assets/Maksym Torbenko CV.pdf";
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
