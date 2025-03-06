@@ -61,7 +61,7 @@ function Hero() {
               variants={childVariants}
               className="dark:text-stone-200 bg-clip-text text-3xl tracking-tight"
             >
-              Front End Developer
+              Frontend Developer
             </motion.span>
             <motion.p
               variants={childVariants}
