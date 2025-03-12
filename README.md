@@ -19,7 +19,7 @@ To run this project locally, follow these steps:
 
 ### Clone the repository:
 ```sh
-git clone https://github.com/Makc240305/My-Portfolio.git
+[git clone https://github.com/Makc240305/My-Portfolio.git](https://github.com/Makc240305/My-portfolio.git)
 ```
 
 ### Navigate to the project directory:
