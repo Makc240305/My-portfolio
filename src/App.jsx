@@ -3,8 +3,8 @@ import Hero from "./components/Hero";
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
+import { Languages } from "./components/Languages";
 import Contact from "./components/Contact";
-
 
 const App = () => {
   return (
@@ -21,6 +21,7 @@ const App = () => {
         <Technologies />
         <Projects />
         <Experience />
+        <Languages />
         <Contact />
       </div>
     </div>
