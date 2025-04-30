@@ -1,7 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import portfolio_image from "../assets/porfolio image 1.png";
 import { motion } from "framer-motion";
-import cv from "../assets/Maksym Torbenko CV.pdf";
+import cv from "../assets/Maksym_Torbenko_CV.pdf";
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -61,7 +61,7 @@ function Hero() {
               variants={childVariants}
               className="dark:text-stone-200 bg-clip-text text-3xl tracking-tight"
             >
-              Frontend Developer
+              Web Developer
             </motion.span>
             <motion.p
               variants={childVariants}
