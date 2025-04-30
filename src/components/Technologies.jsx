@@ -1,5 +1,6 @@
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { FaJs, FaHtml5, FaCss3, FaNodeJs } from "react-icons/fa";
+import { SiTypescript, SiRedux } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -79,6 +80,22 @@ const Technologies = () => {
           className="p-4 text-green-500 drop-shadow-[0_0px_30px_rgba(34,197,94,1)] hover:scale-140 active:scale-140 transition"
         >
           <FaNodeJs className="text-7xl" />
+        </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(4.5)}
+          className="p-4 text-blue-600 drop-shadow-[0_0_30px_rgba(37,99,235,0.9)] hover:scale-140 active:scale-140 transition"
+        >
+          <SiTypescript className="text-7xl" />
+        </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(3.5)}
+          className="p-4 text-purple-500 drop-shadow-[0_0_30px_rgba(168,85,247,0.9)] hover:scale-140 active:scale-140 transition"
+        >
+          <SiRedux className="text-7xl" />
         </motion.div>
       </motion.div>
     </div>

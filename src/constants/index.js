@@ -1,20 +1,37 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = `Motivated and detail-oriented Computer Science student with foundational expertise in JavaScript, React, and Node.js. Proficient in building responsive interfaces using HTML/CSS, SCSS, Tailwind CSS, and version control with Git. Eager to contribute to real-world projects while expanding skills in front-end development and collaborative workflows.`;
+export const HERO_CONTENT = `Motivated Computer Science student with hands-on experience in JavaScript, TypeScript, React, and Node.js. Skilled in building responsive, accessible UIs using HTML, SCSS, Tailwind CSS, and modern component-driven architecture. Proficient with Git/GitHub workflows and eager to contribute to real-world projects while continuously improving through practice.`;
 
 export const EXPERIENCES = [
   {
-    year: "2022 - 2025",
+    year: "Aug 2021 - Jan 2025",
     role: "Freelance Image Editor",
     company: "Upwork (Remote)",
-    description: `Edited and optimized images for websites, collaborated with front-end developers to integrate graphical elements into web applications.`,
+    description: `Edited and optimized images for websites using Photoshop. Communicated with international clients in English. Collaborated with front-end developers to integrate graphical elements into web applications.`,
     technologies: ["Photoshop", "Figma", "Illustrator"],
+  },
+  {
+    year: "Jan 2022 - Mar 2022",
+    role: "Web Developer Intern",
+    company: "Web Kuznya, Khmelnytsky (On-site)",
+    description: `Internship focusing on frontend development. Gained practical experience with web technologies while working on real projects in a professional environment.`,
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];
 
 export const PROJECTS = [
+  {
+    title: "FitApp – Fitness Companion",
+    image: project4,
+    description:
+      "Full-stack fitness platform for goal tracking and meal planning. Includes a calorie calculator with dynamic Recharts graphs, AI-powered recipe generator, and JWT auth with Google OAuth.",
+    technologies: ["React", "Express", "PostgreSQL", "Prisma", "JWT", "Recharts", "OAuth"],
+    githubLink: "https://github.com/vakulenko10/fitApp-frontend",
+    link: "https://fit-app-frontend.vercel.app",
+  },
   {
     title: "Weather App",
     image: project1,
