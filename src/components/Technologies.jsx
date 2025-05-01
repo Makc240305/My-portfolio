@@ -85,7 +85,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           variants={iconVariants(4.5)}
-          className="p-4 text-blue-600 drop-shadow-[0_0_30px_rgba(37,99,235,0.9)] hover:scale-140 active:scale-140 transition"
+          className="p-4 text-blue-600 drop-shadow-[0_0_30px_rgba(37,99,235,0.6)] hover:scale-140 active:scale-140 transition"
         >
           <SiTypescript className="text-7xl" />
         </motion.div>
@@ -93,7 +93,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           variants={iconVariants(3.5)}
-          className="p-4 text-purple-500 drop-shadow-[0_0_30px_rgba(168,85,247,0.9)] hover:scale-140 active:scale-140 transition"
+          className="p-4 text-purple-500 drop-shadow-[0_0_20px_rgba(168,85,247,1)] hover:scale-140 active:scale-140 transition"
         >
           <SiRedux className="text-7xl" />
         </motion.div>
