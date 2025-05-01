@@ -24,7 +24,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "FitApp – Fitness Companion",
+    title: "FitApp",
     image: project4,
     description:
       "Full-stack fitness platform for goal tracking and meal planning. Includes a calorie calculator with dynamic Recharts graphs, AI-powered recipe generator, and JWT auth with Google OAuth.",

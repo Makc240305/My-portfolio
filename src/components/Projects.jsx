@@ -60,7 +60,7 @@ const Projects = () => {
                   <FaGithub />
                 </a>
               </div>
-              <div>
+              <div className="flex flex-wrap">
                 <a
                   href={project.link}
                   aria-label={`Open ${project.title} project`}
